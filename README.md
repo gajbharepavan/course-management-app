@@ -350,39 +350,10 @@ VITE_API_URL=https://course-management-app-uk61.onrender.com/api
 
 ---
 
-## 📞 Support & Contact
+##  License
 
-- **GitHub Issues**: Report bugs on the repository
-- **Email**: pavan@example.com
-
----
-
-## 📄 License
-
-ISC License - Feel free to use this project for educational purposes
-
----
-
-## 👨‍💻 Author
-
-**Pavan Gajbhare**
-- GitHub: https://github.com/gajbharepavan
-- Email: pavan@example.com
-
----
-
-## 🎓 Educational Purpose
-
-This project was created as a college assignment to demonstrate:
-- Full-stack web development
-- RESTful API design
-- JWT authentication
-- Database design and management
-- Frontend-backend integration
-- Cloud deployment practices
+ISC License
 
 ---
 
 **Last Updated**: January 4, 2026
-
-**Happy Coding! 🚀**
