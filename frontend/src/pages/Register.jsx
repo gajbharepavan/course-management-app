@@ -11,11 +11,18 @@ const Register = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setError(''); // Clear previous errors
         try {
-            await api.post('/auth/register', { name, email, password });
+            const response = await api.post('/auth/register', { name, email, password });
+            console.log('Registration successful:', response.data);
             navigate('/login');
         } catch (err) {
-            setError(err.response?.data?.error || 'Registration failed');
+            console.error('Registration error:', err);
+            const errorMessage = err.response?.data?.error || 
+                               err.response?.data?.errors?.[0]?.msg ||
+                               err.message || 
+                               'Registration failed';
+            setError(errorMessage);
         }
     };
 
