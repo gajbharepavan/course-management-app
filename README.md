@@ -137,17 +137,20 @@ http://localhost:5173
 ## 📸 Screenshots
 
 ### 1. Login Page
+![Login Page](./assets/01-login.png)
 - Clean login interface with email and password fields
 - Option to navigate to registration page
 - Form validation and error handling
 
 ### 2. Registration Page
+![Register Page](./assets/02-register.png)
 - User registration form
 - Email validation
 - Password strength requirements
 - Success/error feedback
 
 ### 3. Dashboard
+![Dashboard](./assets/03-dashboard.png)
 - Displays all available courses
 - Course cards with title, instructor, duration
 - Add, Edit, and Delete buttons
@@ -155,23 +158,27 @@ http://localhost:5173
 - Empty state message when no courses exist
 
 ### 4. Add Course Form
+![Add Course](./assets/04-add-course.png)
 - Form to create new courses
 - Fields: Title, Description, Instructor, Duration
 - Form validation
 - Submit and Cancel buttons
 
 ### 5. Edit Course Form
+![Edit Course](./assets/05-edit-course.png)
 - Pre-filled form with existing course data
 - Ability to update any field
 - Save and Cancel options
 
 ### 6. Course Management UI
+![Course Card](./assets/06-course-card.png)
 - Individual course cards
 - Display course information
 - Quick access to Edit and Delete actions
 - Hover effects and responsive design
 
 ### 7. Responsive Mobile View
+![Mobile View](./assets/07-mobile-view.png)
 - Mobile-friendly navigation
 - Stack-based layout
 - Touch-friendly buttons
