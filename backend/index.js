@@ -10,20 +10,8 @@ const courseRoutes = require('./routes/course');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// CORS configuration to allow requests from Netlify
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'http://localhost:3000',
-        'https://transcendent-beijinho-af2499.netlify.app',
-        process.env.FRONTEND_URL
-    ],
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization']
-};
-
-app.use(cors(corsOptions));
+// Enable CORS for all origins (for development/testing)
+app.use(cors());
 app.use(express.json());
 
 // Routes
